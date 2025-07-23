@@ -1,0 +1,113 @@
+/* Reset default margin and prevent horizontal scroll */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+    135deg,
+    #d9a7c7,
+    #fffcdc
+  ); /* Light Purple + Pink */
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Main container */
+.container,
+.generate-container {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Heading */
+h1,
+.title {
+  text-align: center;
+  color: #6a0572;
+  margin-bottom: 30px;
+}
+
+/* Input textarea */
+.input-textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+  line-height: 1.5;
+  resize: vertical;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: hidden;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Button */
+button,
+.submit-btn {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: #c44569;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button:hover,
+.submit-btn:hover {
+  background-color: #a83358;
+}
+
+.submit-btn.disabled {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
+
+/* AI Answer box */
+.response-box {
+  margin-top: 25px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: hidden;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .container,
+  .generate-container {
+    padding: 20px;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+}
