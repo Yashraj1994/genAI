@@ -1,12 +1,44 @@
-# React + Vite
+# 🧠 GenAI – Your Personal AI Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**GenAI** is a sleek, minimalistic AI assistant web app built using **React**. It allows users to enter a query and receive a generated response using AI models in real-time. The interface is styled with a smooth purple-pink gradient and a clean answer box for readability.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚡ Real-time search and response generation
+- 🎨 Gradient-themed UI with modern, responsive design
+- 📝 Well-styled output box with scroll fixes
+- 📦 Built using React + CSS modules
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Screenshots
+
+> Add screenshots here later (Optional)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React (Vite)
+- **Styling**: CSS (Custom gradient themes)
+- **Version Control**: Git + GitHub
+
+---
+
+## 🧪 How to Run Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Yashraj1994/genAI.git
+
+# 2. Navigate to the project directory
+cd genAI
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+```
